@@ -1,0 +1,11 @@
+﻿<script>
+			$(function(){
+				$("#changePage").change(function(){
+					var page = $("#changePage option:selected").val();
+					
+					window.location.href = "index.php?page="+page;
+				})
+			})
+
+			
+		</script>
